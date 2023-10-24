@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Modelo Deserción</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+		<style>
+			
+		</style>
+	</head>
+
+	<body>
+
+		<div class="form-style-5">
+			<form method="POST" action="/prediccion">
+			<fieldset>
+			<legend><span class="number"></span> Provee la información del estudiante del que quieres saber si deserta o no: </legend>
+			<input type="number" name="var_1" placeholder="Edad *">
+			<input type="number" name="var_2" placeholder="Genero (0 para femenino, 1 para masculino) *">
+			<input type="number" name="var_3" placeholder="Estrato *">
+			<input type="number" name="var_4" placeholder="Materias Perdidas *">
+			<input type="number" min="0" step="0.1" name="var_5" placeholder="Último Promedio Academico *">
+			</fieldset>
+			<input type="submit" value="Enviar" />
+			</form>
+			</div>
+
+	</body>
+</html>
