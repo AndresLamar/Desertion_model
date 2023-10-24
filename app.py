@@ -1,11 +1,7 @@
-import pandas as pd
 import numpy as np
-import sklearn
 import joblib
 from flask import Flask,render_template,request
-# import tensorflow as tf
-# from tensorflow import keras
-#from tensorflow.keras.models import load_model
+
 
 app=Flask(__name__)
 
